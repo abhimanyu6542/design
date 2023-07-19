@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+.priceSection {
+    background: hsla(186, 33%, 94%, 1);
+  
+    background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+  
+    background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+  
+    background: -webkit-linear-gradient(
+      90deg,
+      hsla(186, 33%, 94%, 1) 0%,
+      hsla(216, 41%, 79%, 1) 100%
+    );
+  
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
+  }
+  
+  .heading {
+    color: hsla(217, 100%, 50%, 1);
+  
+    color: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  
+    color: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  
+    color: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+  
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
+  }
+  
+  .featureImage{
+      border-color: hsla(208, 43%, 78%, 1);
+  
+  border-color: linear-gradient(270deg, hsla(208, 43%, 78%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  
+  border-color: -moz-linear-gradient(270deg, hsla(208, 43%, 78%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  
+  border-color: -webkit-linear-gradient(270deg, hsla(208, 43%, 78%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#AEC8DF", endColorstr="#FFFFFF", GradientType=1 );
+  }
+  
